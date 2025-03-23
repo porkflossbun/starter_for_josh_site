@@ -143,3 +143,18 @@ font-style: italic;
 font-weight: 400;
 padding-bottom: 0px;
 }
+
+.smallpage-bg {
+    width: 100%;
+background: url("images/page_header_bg.jpg") no-repeat center center;
+background-size: cover;
+height: 40vh;
+}
+
+.smallpage-title{ 
+    font-size: 4em;
+    color: white;
+    font-weight: 800;
+    margin-top: 9%;
+    padding-bottom: 5%;
+}
