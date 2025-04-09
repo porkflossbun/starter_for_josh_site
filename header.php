@@ -60,8 +60,6 @@
     <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange"> WHITKIN</span></a>
-      
         <a class="navbar-brand" href=" http://206.189.45.97/~mesh1/"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
       
         <!-- Toggler/collapsibe Button -->
