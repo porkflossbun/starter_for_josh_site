@@ -57,7 +57,8 @@
 
 </head>
 <body>
-    <header class="container-fluid bg1">   <!-- div for the main image the stretches to the edge of the page- -->
+<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+
         <div class="container">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
@@ -87,8 +88,9 @@
         </div>
       </nav> 
    
-        <div class="tag"><!-- div that holds the content in the middle of the page-->
-                  <h1 > Games Design For the Future </h1><!--  the main tag line-->
+      <div class="container smallpage-tag"><!-- div that holds the content in the middle of the page-->
+<h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>
+
   </div>            
 </div><!-- container-->
 
