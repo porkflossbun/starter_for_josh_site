@@ -29,19 +29,19 @@
             </div>
 
             <div class="col-md-4">
-            <?php $image = get_field('modellingimage'); ?><img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
-                <h4 class="article-title"><?php the_field('modellingtitle'); ?></h4>
-                <p class="date"><?php the_field('modellingdate'); ?></p>
-                <p class="article-p"><?php the_field('modellingexcerpt'); ?></p>
-                <a href="<?php the_field('modellingreadmore'); ?>" class="readmore">CONTINUE READING</a>
+            <?php $image = get_field('articleimagemiddle'); ?><img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+                <h4 class="article-title"><?php the_field('articletitlemiddle'); ?></h4>
+                <p class="date"><?php the_field('articledatemiddle'); ?></p>
+                <p class="article-p"><?php the_field('articleexcerptmiddle'); ?></p>
+                <a href="<?php the_field('readmoremiddle'); ?>" class="readmore">CONTINUE READING</a>
             </div>
 
             <div class="col-md-4">
-            <?php $image = get_field('modellingimage'); ?><img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
-                <h4 class="article-title"><?php the_field('designtitle'); ?></h4>
-                <p class="date"><?php the_field('designdate'); ?></p>
-                <p class="article-p"><?php the_field('designexcerpt'); ?></p>
-                <a href="<?php the_field('designreadmore'); ?>" class="readmore">CONTINUE READING</a>
+            <?php $image = get_field('articleimageright'); ?><img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+                <h4 class="article-title"><?php the_field('articletitleright'); ?></h4>
+                <p class="date"><?php the_field('articledateright'); ?></p>
+                <p class="article-p"><?php the_field('articleexcerptright'); ?></p>
+                <a href="<?php the_field('readmoreright'); ?>" class="readmore">CONTINUE READING</a>
             </div>
 
 
