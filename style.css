@@ -144,7 +144,7 @@ font-weight: 400;
 padding-bottom: 0px;
 }
 
-.small_herobg {
+.small_herobg{
     width: 100%;
 background: url("images/small_header_bg.jpg ") no-repeat center center;
 background-size: cover;/*make the background image cover the whole div proportionally*/
@@ -153,7 +153,7 @@ height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the
 }
 
 
-.smallpage-bg {
+.smallpage-bg{
     width: 100%;
 background: url("images/page_header_bg.jpg") no-repeat center center;
 background-size: cover;/*make the background image cover the whole div proportionally*/
@@ -169,7 +169,7 @@ height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the
     padding-bottom: 5%;
 }
 
-img.attachment-thumbnail.size-thumbnail.wp-post-image {
+img.attachment-thumbnail.size-thumbnail.wp-post-image{
     margin-left: 10px;
     float: left;
     margin-right: 10px;
